@@ -11,6 +11,7 @@
 		F713BB382700C229001258F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F713BB372700C229001258F3 /* ContentView.swift */; };
 		F713BB3A2700C22C001258F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F713BB392700C22C001258F3 /* Assets.xcassets */; };
 		F713BB3D2700C22C001258F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F713BB3C2700C22C001258F3 /* Preview Assets.xcassets */; };
+		F713BB462700CCD0001258F3 /* ezgif-1-b5db49f9d624.gif in Resources */ = {isa = PBXBuildFile; fileRef = F713BB452700CCD0001258F3 /* ezgif-1-b5db49f9d624.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		F713BB392700C22C001258F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F713BB3C2700C22C001258F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F713BB3E2700C22C001258F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F713BB452700CCD0001258F3 /* ezgif-1-b5db49f9d624.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ezgif-1-b5db49f9d624.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				F713BB372700C229001258F3 /* ContentView.swift */,
 				F713BB392700C22C001258F3 /* Assets.xcassets */,
 				F713BB3E2700C22C001258F3 /* Info.plist */,
+				F713BB442700CCC9001258F3 /* Gif */,
 				F713BB3B2700C22C001258F3 /* Preview Content */,
 			);
 			path = "SwiftUI-Tabbar";
@@ -67,6 +70,14 @@
 				F713BB3C2700C22C001258F3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F713BB442700CCC9001258F3 /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				F713BB452700CCD0001258F3 /* ezgif-1-b5db49f9d624.gif */,
+			);
+			path = Gif;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F713BB462700CCD0001258F3 /* ezgif-1-b5db49f9d624.gif in Resources */,
 				F713BB3D2700C22C001258F3 /* Preview Assets.xcassets in Resources */,
 				F713BB3A2700C22C001258F3 /* Assets.xcassets in Resources */,
 			);
